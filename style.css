@@ -333,6 +333,58 @@ body {
   to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 
+/* ═══ BUNDLES ═══ */
+.bundles { background: var(--bg); }
+.bundles-grid {
+  display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;
+}
+.bundle-card {
+  background: var(--card); border: 2px solid var(--border);
+  border-radius: 24px; padding: 2.5rem 2rem; text-align: center;
+  min-width: 260px; max-width: 320px; flex: 1; position: relative;
+  transition: transform .25s, box-shadow .25s;
+}
+.bundle-card:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(0,0,0,.4); }
+.bundle-featured {
+  border-color: var(--pink);
+  background: linear-gradient(135deg, rgba(255,0,110,.08), rgba(131,56,236,.08));
+  box-shadow: 0 0 40px rgba(255,0,110,.15);
+}
+.bundle-badge {
+  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+  background: var(--gradient); color: white;
+  font-size: .7rem; font-weight: 800; letter-spacing: 1px;
+  padding: .3rem 1rem; border-radius: 50px; white-space: nowrap;
+}
+.bundle-emoji { font-size: 3rem; margin-bottom: 1rem; }
+.bundle-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.4rem; font-weight: 800; margin-bottom: .5rem;
+}
+.bundle-desc { color: var(--gray); font-size: .95rem; margin-bottom: 1.25rem; }
+.bundle-desc strong { color: var(--white); }
+.bundle-price {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3rem; font-weight: 800;
+  background: var(--gradient);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text; line-height: 1; margin-bottom: 1.5rem;
+  display: flex; align-items: center; justify-content: center; gap: .75rem;
+}
+.bundle-save {
+  font-size: .75rem; font-weight: 700; background: rgba(6,255,165,.15);
+  color: var(--mint); border: 1px solid rgba(6,255,165,.3);
+  border-radius: 50px; padding: .25rem .75rem;
+  -webkit-text-fill-color: var(--mint);
+}
+.bundle-btn {
+  width: 100%; padding: .9rem; background: var(--gradient);
+  color: white; border: none; border-radius: 12px;
+  font-weight: 700; font-size: 1rem; cursor: pointer;
+  transition: opacity .2s, transform .1s; font-family: inherit;
+}
+.bundle-btn:hover { opacity: .85; transform: translateY(-2px); }
+
 /* ═══ FEATURES ═══ */
 .features { background: var(--card2); }
 .features-grid {
