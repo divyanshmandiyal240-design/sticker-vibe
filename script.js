@@ -18,112 +18,154 @@ const PAYMENT_METHOD  = "whatsapp";     // "whatsapp" or "stripe"
 const products = [
   // ── MEME ──────────────────────────────────────────
   {
-    id: 1, name: "This Is Fine", cat: "meme", emoji: "🔥",
+    id: 1, name: "This Is Fine", cat: "meme", emoji: "🔥", img: "images/fire.svg",
     price: 4.99, bg: "linear-gradient(135deg,#ff6b6b,#ee5a24)",
     badge: "HOT", stripeLink: "#"
   },
   {
-    id: 2, name: "No Cap Fr Fr", cat: "meme", emoji: "🧢",
+    id: 2, name: "No Cap Fr Fr", cat: "meme", emoji: "🧢", img: "images/cap.svg",
     price: 3.99, bg: "linear-gradient(135deg,#f7d794,#f19066)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 3, name: "Drake Approved", cat: "meme", emoji: "👆",
+    id: 3, name: "Drake Approved", cat: "meme", emoji: "👆", img: "images/thumbsup.svg",
     price: 4.99, bg: "linear-gradient(135deg,#a29bfe,#6c5ce7)",
     badge: "NEW", stripeLink: "#"
   },
   {
-    id: 4, name: "Ratio'd 💀", cat: "meme", emoji: "💀",
+    id: 4, name: "Ratio'd 💀", cat: "meme", emoji: "💀", img: "images/skull.svg",
     price: 3.99, bg: "linear-gradient(135deg,#fd79a8,#d63031)",
     badge: null, stripeLink: "#"
   },
 
   // ── AESTHETIC ─────────────────────────────────────
   {
-    id: 5, name: "Y2K Butterfly", cat: "aesthetic", emoji: "🦋",
+    id: 5, name: "Y2K Butterfly", cat: "aesthetic", emoji: "🦋", img: "images/butterfly.svg",
     price: 5.99, bg: "linear-gradient(135deg,#c7ecee,#778beb)",
     badge: "TREND", stripeLink: "#"
   },
   {
-    id: 6, name: "Retro Sun", cat: "aesthetic", emoji: "☀️",
+    id: 6, name: "Retro Sun", cat: "aesthetic", emoji: "☀️", img: "images/sun.svg",
     price: 4.99, bg: "linear-gradient(135deg,#f6e58d,#f9ca24)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 7, name: "Cloud Core", cat: "aesthetic", emoji: "☁️",
+    id: 7, name: "Cloud Core", cat: "aesthetic", emoji: "☁️", img: "images/cloud.svg",
     price: 4.99, bg: "linear-gradient(135deg,#636e72,#b2bec3)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 8, name: "Vaporwave", cat: "aesthetic", emoji: "🌊",
+    id: 8, name: "Vaporwave", cat: "aesthetic", emoji: "🌊", img: "images/wave.svg",
     price: 5.99, bg: "linear-gradient(135deg,#a29bfe,#fd79a8)",
     badge: "HOT", stripeLink: "#"
   },
 
   // ── ANIME ─────────────────────────────────────────
   {
-    id: 9, name: "Chibi Chaos", cat: "anime", emoji: "🌸",
+    id: 9, name: "Chibi Chaos", cat: "anime", emoji: "🌸", img: "images/flower.svg",
     price: 5.99, bg: "linear-gradient(135deg,#fd79a8,#e84393)",
     badge: "NEW", stripeLink: "#"
   },
   {
-    id: 10, name: "Manga Panel", cat: "anime", emoji: "💥",
+    id: 10, name: "Manga Panel", cat: "anime", emoji: "💥", img: "images/bolt.svg",
     price: 4.99, bg: "linear-gradient(135deg,#2d3436,#636e72)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 11, name: "Kawaii Mode", cat: "anime", emoji: "💖",
+    id: 11, name: "Kawaii Mode", cat: "anime", emoji: "💖", img: "images/heart.svg",
     price: 4.99, bg: "linear-gradient(135deg,#fdcb6e,#e17055)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 12, name: "Oni Mask", cat: "anime", emoji: "👹",
+    id: 12, name: "Oni Mask", cat: "anime", emoji: "👹", img: "images/mask.svg",
     price: 6.99, bg: "linear-gradient(135deg,#d63031,#e17055)",
     badge: "LTD", stripeLink: "#"
+  },
+  {
+    id: 21, name: "Sakura Dreams", cat: "anime", emoji: "🌸", img: "images/sakura.svg",
+    price: 5.99, bg: "linear-gradient(135deg,#fda4af,#fb7185)",
+    badge: "NEW", stripeLink: "#"
+  },
+  {
+    id: 22, name: "Demon Eye", cat: "anime", emoji: "👁️", img: "images/demon-eye.svg",
+    price: 6.99, bg: "linear-gradient(135deg,#7f1d1d,#dc2626)",
+    badge: "LTD", stripeLink: "#"
+  },
+  {
+    id: 23, name: "Forest Spirit", cat: "anime", emoji: "🌿", img: "images/totoro.svg",
+    price: 5.99, bg: "linear-gradient(135deg,#4ade80,#16a34a)",
+    badge: "FAV", stripeLink: "#"
+  },
+  {
+    id: 24, name: "Shonen Spirit", cat: "anime", emoji: "⚡", img: "images/shonen.svg",
+    price: 5.99, bg: "linear-gradient(135deg,#3b82f6,#1d4ed8)",
+    badge: "HOT", stripeLink: "#"
   },
 
   // ── MOTIVATIONAL ──────────────────────────────────
   {
-    id: 13, name: "Main Character", cat: "motivational", emoji: "⭐",
+    id: 13, name: "Main Character", cat: "motivational", emoji: "⭐", img: "images/star.svg",
     price: 4.99, bg: "linear-gradient(135deg,#55efc4,#00b894)",
     badge: "FAV", stripeLink: "#"
   },
   {
-    id: 14, name: "You Got This", cat: "motivational", emoji: "💪",
+    id: 14, name: "You Got This", cat: "motivational", emoji: "💪", img: "images/fist.svg",
     price: 3.99, bg: "linear-gradient(135deg,#74b9ff,#0984e3)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 15, name: "Slay All Day", cat: "motivational", emoji: "👑",
+    id: 15, name: "Slay All Day", cat: "motivational", emoji: "👑", img: "images/crown.svg",
     price: 4.99, bg: "linear-gradient(135deg,#ffeaa7,#fdcb6e)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 16, name: "Glow Up Era", cat: "motivational", emoji: "✨",
+    id: 16, name: "Glow Up Era", cat: "motivational", emoji: "✨", img: "images/sparkle.svg",
     price: 3.99, bg: "linear-gradient(135deg,#a29bfe,#6c5ce7)",
     badge: null, stripeLink: "#"
   },
 
   // ── FUNNY ─────────────────────────────────────────
   {
-    id: 17, name: "Vibe Check", cat: "funny", emoji: "✅",
+    id: 17, name: "Vibe Check", cat: "funny", emoji: "✅", img: "images/check.svg",
     price: 3.99, bg: "linear-gradient(135deg,#55efc4,#00cec9)",
     badge: "HOT", stripeLink: "#"
   },
   {
-    id: 18, name: "No Thoughts", cat: "funny", emoji: "🧠",
+    id: 18, name: "No Thoughts", cat: "funny", emoji: "🧠", img: "images/brain.svg",
     price: 3.99, bg: "linear-gradient(135deg,#fd79a8,#e84393)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 19, name: "Understood 📝", cat: "funny", emoji: "📝",
+    id: 19, name: "Understood 📝", cat: "funny", emoji: "📝", img: "images/notepad.svg",
     price: 4.99, bg: "linear-gradient(135deg,#fdcb6e,#e17055)",
     badge: null, stripeLink: "#"
   },
   {
-    id: 20, name: "It's Giving 💅", cat: "funny", emoji: "💅",
+    id: 20, name: "It's Giving 💅", cat: "funny", emoji: "💅", img: "images/nailpolish.svg",
     price: 4.99, bg: "linear-gradient(135deg,#a29bfe,#fd79a8)",
     badge: "NEW", stripeLink: "#"
+  },
+
+  // ── COFFEE ────────────────────────────────────────
+  {
+    id: 25, name: "Latte Art", cat: "coffee", emoji: "☕", img: "images/latte.svg",
+    price: 4.99, bg: "linear-gradient(135deg,#fef3c7,#f59e0b)",
+    badge: "NEW", stripeLink: "#"
+  },
+  {
+    id: 26, name: "Espresso Shot", cat: "coffee", emoji: "☕", img: "images/espresso.svg",
+    price: 3.99, bg: "linear-gradient(135deg,#292524,#7c2d12)",
+    badge: null, stripeLink: "#"
+  },
+  {
+    id: 27, name: "Matcha Energy", cat: "coffee", emoji: "🍵", img: "images/matcha.svg",
+    price: 4.99, bg: "linear-gradient(135deg,#d1fae5,#4ade80)",
+    badge: "TREND", stripeLink: "#"
+  },
+  {
+    id: 28, name: "Cozy Cup", cat: "coffee", emoji: "☕", img: "images/cozy-cup.svg",
+    price: 4.99, bg: "linear-gradient(135deg,#1c1008,#f97316)",
+    badge: "FAV", stripeLink: "#"
   },
 ];
 
@@ -152,8 +194,8 @@ function renderProducts(filter = 'all') {
       ? `<div class="sticker-badge ${badgeMap[p.badge] || ''}">${p.badge}</div>` : '';
 
     card.innerHTML = `
-      <div class="sticker-img" style="background:${p.bg}">
-        <span class="sticker-emoji">${p.emoji}</span>
+      <div class="sticker-img">
+        <img src="${p.img}" alt="${p.name}" class="sticker-svg" loading="lazy">
         ${badgeHtml}
       </div>
       <div class="sticker-info">
@@ -231,7 +273,7 @@ function renderCartUI() {
     const el = document.createElement('div');
     el.className = 'cart-item';
     el.innerHTML = `
-      <div class="cart-item-img" style="background:${p.bg}">${p.emoji}</div>
+      <div class="cart-item-img"><img src="${p.img}" alt="${p.name}"></div>
       <div class="cart-item-info">
         <div class="cart-item-name">${p.name}</div>
         <div class="cart-item-price">$${(p.price * item.qty).toFixed(2)}</div>
