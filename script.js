@@ -167,6 +167,97 @@ const products = [
     price: 3.00, bg: "linear-gradient(135deg,#1c1008,#f97316)",
     badge: "FAV", stripeLink: "#"
   },
+
+  // ── AESTHETIC ─────────────────────────────────────
+  {
+    id: 29, name: "Golden Hour", cat: "aesthetic", emoji: "🌻", img: "images/sunflower.png",
+    price: 3.00, bg: "linear-gradient(135deg,#f9ca24,#f0932b)",
+    badge: "NEW", stripeLink: "#"
+  },
+  {
+    id: 30, name: "Dark Wings", cat: "aesthetic", emoji: "🦋", img: "images/red-butterfly.png",
+    price: 3.00, bg: "linear-gradient(135deg,#2d0000,#7f1d1d)",
+    badge: null, stripeLink: "#"
+  },
+  {
+    id: 31, name: "Reset & Refocus", cat: "motivational", emoji: "∞", img: "images/reset-refocus.png",
+    price: 3.00, bg: "linear-gradient(135deg,#bfdbfe,#93c5fd)",
+    badge: "TREND", stripeLink: "#"
+  },
+  {
+    id: 32, name: "Good Things", cat: "motivational", emoji: "⭐", img: "images/good-things.png",
+    price: 3.00, bg: "linear-gradient(135deg,#d9f99d,#86efac)",
+    badge: null, stripeLink: "#"
+  },
+  {
+    id: 33, name: "Jiji Vibes", cat: "aesthetic", emoji: "🐱", img: "images/black-cat.png",
+    price: 3.00, bg: "linear-gradient(135deg,#4ade80,#166534)",
+    badge: "HOT", stripeLink: "#"
+  },
+  {
+    id: 34, name: "Evil Eye", cat: "aesthetic", emoji: "👁️", img: "images/evil-eye.png",
+    price: 3.00, bg: "linear-gradient(135deg,#1e3a8a,#1d4ed8)",
+    badge: "TREND", stripeLink: "#"
+  },
+  {
+    id: 35, name: "Teddy Love", cat: "aesthetic", emoji: "🧸", img: "images/teddy-bear.png",
+    price: 3.00, bg: "linear-gradient(135deg,#d4a574,#92400e)",
+    badge: null, stripeLink: "#"
+  },
+  {
+    id: 36, name: "Make A Wish", cat: "motivational", emoji: "✨", img: "images/1111.png",
+    price: 3.00, bg: "linear-gradient(135deg,#1a1a2e,#0f172a)",
+    badge: "FAV", stripeLink: "#"
+  },
+
+  // ── FUNNY ─────────────────────────────────────────
+  {
+    id: 37, name: "Don't Test Me", cat: "funny", emoji: "🐻", img: "images/angry-bear.png",
+    price: 3.00, bg: "linear-gradient(135deg,#d1fae5,#6ee7b7)",
+    badge: "HOT", stripeLink: "#"
+  },
+  {
+    id: 38, name: "Too Cool", cat: "funny", emoji: "👻", img: "images/cool-ghost.png",
+    price: 3.00, bg: "linear-gradient(135deg,#f1f5f9,#cbd5e1)",
+    badge: "NEW", stripeLink: "#"
+  },
+  {
+    id: 39, name: "Corgi Smirk", cat: "meme", emoji: "🐕", img: "images/corgi-smirk.png",
+    price: 3.00, bg: "linear-gradient(135deg,#fde68a,#f59e0b)",
+    badge: "HOT", stripeLink: "#"
+  },
+  {
+    id: 40, name: "It's Fine (Ok)", cat: "meme", emoji: "😿", img: "images/ok-cat.png",
+    price: 3.00, bg: "linear-gradient(135deg,#fecdd3,#fb7185)",
+    badge: "NEW", stripeLink: "#"
+  },
+
+  // ── CUTE ──────────────────────────────────────────
+  {
+    id: 41, name: "Cat Nap", cat: "aesthetic", emoji: "😺", img: "images/sleeping-cat.png",
+    price: 3.00, bg: "linear-gradient(135deg,#e2e8f0,#94a3b8)",
+    badge: null, stripeLink: "#"
+  },
+  {
+    id: 42, name: "Sleep Mode", cat: "aesthetic", emoji: "🐻", img: "images/sleepy-bear.png",
+    price: 3.00, bg: "linear-gradient(135deg,#bfdbfe,#3b82f6)",
+    badge: "FAV", stripeLink: "#"
+  },
+  {
+    id: 43, name: "Cookie Duck", cat: "funny", emoji: "🐥", img: "images/cookie-duck.png",
+    price: 3.00, bg: "linear-gradient(135deg,#fef9c3,#fde047)",
+    badge: "NEW", stripeLink: "#"
+  },
+  {
+    id: 44, name: "Dark Knight", cat: "meme", emoji: "🦇", img: "images/batman.png",
+    price: 3.00, bg: "linear-gradient(135deg,#1a1a2e,#374151)",
+    badge: null, stripeLink: "#"
+  },
+  {
+    id: 45, name: "Waddle On", cat: "aesthetic", emoji: "🐧", img: "images/penguin.png",
+    price: 3.00, bg: "linear-gradient(135deg,#e2e8f0,#94a3b8)",
+    badge: null, stripeLink: "#"
+  },
 ];
 
 // ═══ CART STATE ═══
