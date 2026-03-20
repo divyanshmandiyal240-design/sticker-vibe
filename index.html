@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticker Vibe — Trendy Gen Z Stickers</title>
+  <meta name="description" content="Shop the trendiest Gen Z stickers — memes, aesthetic, anime, motivational & funny. Premium waterproof vinyl. Ships worldwide.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <span class="logo-emoji">🎨</span>
+      <span class="logo-text">Sticker<span class="logo-accent">Vibe</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#features">Why Us</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="cart-btn" id="cart-btn" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 001.93 1.61H19a2 2 0 001.94-1.51L23 6H6"/>
+        </svg>
+        <span class="cart-count hidden" id="cart-count">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#shop" class="mob-link">Shop</a>
+    <a href="#categories" class="mob-link">Categories</a>
+    <a href="#features" class="mob-link">Why Us</a>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="hero-floaters" aria-hidden="true">
+    <span class="floater f1">🔥</span>
+    <span class="floater f2">✨</span>
+    <span class="floater f3">🦋</span>
+    <span class="floater f4">👑</span>
+    <span class="floater f5">💅</span>
+    <span class="floater f6">🌸</span>
+    <span class="floater f7">⭐</span>
+    <span class="floater f8">💀</span>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">🔥 New drops every week</div>
+    <h1 class="hero-title">Your Vibe.<br><span class="gradient-text">Your Stickers.</span></h1>
+    <p class="hero-sub">Premium vinyl stickers that actually slap. Waterproof, durable, and dripping in Gen Z energy.</p>
+    <div class="hero-btns">
+      <a href="#shop" class="btn-primary">Shop Now →</a>
+      <a href="#categories" class="btn-ghost">Browse Categories</a>
+    </div>
+    <div class="hero-trust">
+      <span>🛡️ Waterproof</span>
+      <span>🚀 Fast Shipping</span>
+      <span>💯 30-Day Guarantee</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TICKER ═══ -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span>🔥 MEME STICKERS</span><span>✨ AESTHETIC DROPS</span><span>🌸 ANIME VIBES</span>
+    <span>👑 MOTIVATIONAL HITS</span><span>💅 FUNNY ONES</span><span>🎨 PREMIUM VINYL</span>
+    <span>🚀 FREE SHIPPING $25+</span><span>💯 WATERPROOF</span>
+    <span>🔥 MEME STICKERS</span><span>✨ AESTHETIC DROPS</span><span>🌸 ANIME VIBES</span>
+    <span>👑 MOTIVATIONAL HITS</span><span>💅 FUNNY ONES</span><span>🎨 PREMIUM VINYL</span>
+    <span>🚀 FREE SHIPPING $25+</span><span>💯 WATERPROOF</span>
+  </div>
+</div>
+
+<!-- ═══ CATEGORIES ═══ -->
+<section class="categories-section" id="categories">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">Browse by vibe</span>
+      <h2>Pick Your <span class="gradient-text">Category</span></h2>
+    </div>
+    <div class="cat-grid">
+      <button class="cat-card active" data-filter="all">
+        <span class="cat-emoji">🎨</span>
+        <span class="cat-name">All</span>
+        <span class="cat-count">20</span>
+      </button>
+      <button class="cat-card" data-filter="meme">
+        <span class="cat-emoji">🔥</span>
+        <span class="cat-name">Meme</span>
+        <span class="cat-count">4</span>
+      </button>
+      <button class="cat-card" data-filter="aesthetic">
+        <span class="cat-emoji">🦋</span>
+        <span class="cat-name">Aesthetic</span>
+        <span class="cat-count">4</span>
+      </button>
+      <button class="cat-card" data-filter="anime">
+        <span class="cat-emoji">🌸</span>
+        <span class="cat-name">Anime</span>
+        <span class="cat-count">4</span>
+      </button>
+      <button class="cat-card" data-filter="motivational">
+        <span class="cat-emoji">👑</span>
+        <span class="cat-name">Motivational</span>
+        <span class="cat-count">4</span>
+      </button>
+      <button class="cat-card" data-filter="funny">
+        <span class="cat-emoji">💅</span>
+        <span class="cat-name">Funny</span>
+        <span class="cat-count">4</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SHOP ═══ -->
+<section class="shop section" id="shop">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">🛒 Fresh drops</span>
+      <h2>Shop All <span class="gradient-text">Stickers</span></h2>
+      <p>Pick your faves — waterproof premium vinyl, ships worldwide</p>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="meme">🔥 Meme</button>
+      <button class="filter-btn" data-filter="aesthetic">🦋 Aesthetic</button>
+      <button class="filter-btn" data-filter="anime">🌸 Anime</button>
+      <button class="filter-btn" data-filter="motivational">👑 Motivational</button>
+      <button class="filter-btn" data-filter="funny">💅 Funny</button>
+    </div>
+    <div class="products-grid" id="products-grid"></div>
+  </div>
+</section>
+
+<!-- ═══ FEATURES ═══ -->
+<section class="features section" id="features">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">Why Sticker Vibe</span>
+      <h2>Built Different <span class="gradient-text">fr fr</span></h2>
+    </div>
+    <div class="features-grid">
+      <div class="feat-card">
+        <div class="feat-icon">💧</div>
+        <h3>100% Waterproof</h3>
+        <p>Sun, rain, or your water bottle — these stickers don't give up. Premium vinyl that lasts years.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">🚀</div>
+        <h3>Fast Shipping</h3>
+        <p>Your order ships within 2 business days. Track it in real time. We don't keep you waiting.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">🌍</div>
+        <h3>Ships Worldwide</h3>
+        <p>Sticker Vibe delivers to 50+ countries. Your vibe has no borders.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">💯</div>
+        <h3>30-Day Guarantee</h3>
+        <p>Not vibing with your purchase? Return it no questions asked within 30 days.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ NEWSLETTER ═══ -->
+<section class="newsletter">
+  <div class="container">
+    <div class="nl-inner">
+      <div class="nl-text">
+        <h2>Stay in the loop ✉️</h2>
+        <p>New drops, exclusive discounts, and Gen Z energy — right in your inbox.</p>
+      </div>
+      <form class="nl-form" id="nl-form">
+        <input type="email" placeholder="your@email.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <span>🎨</span>
+        <span>StickerVibe</span>
+      </div>
+      <p>The internet's most iconic sticker shop. Built for the culture.</p>
+    </div>
+    <div class="footer-links">
+      <strong>Shop</strong>
+      <a href="#shop" onclick="setFilter('meme')">Meme Stickers</a>
+      <a href="#shop" onclick="setFilter('aesthetic')">Aesthetic</a>
+      <a href="#shop" onclick="setFilter('anime')">Anime</a>
+      <a href="#shop" onclick="setFilter('motivational')">Motivational</a>
+      <a href="#shop" onclick="setFilter('funny')">Funny</a>
+    </div>
+    <div class="footer-links">
+      <strong>Info</strong>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Returns</a>
+      <a href="#">FAQ</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 StickerVibe. All rights reserved. Made with 💜 for the culture.</p>
+  </div>
+</footer>
+
+<!-- ═══ CART SIDEBAR ═══ -->
+<div class="cart-overlay" id="cart-overlay"></div>
+<aside class="cart-sidebar" id="cart-sidebar" aria-label="Shopping cart">
+  <div class="cart-header">
+    <h3>Your Cart 🛒</h3>
+    <button class="cart-close" id="cart-close" aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-footer" id="cart-footer" style="display:none">
+    <div class="cart-total">
+      <span>Subtotal</span>
+      <span id="cart-total">$0.00</span>
+    </div>
+    <p class="cart-note" id="cart-note">🚀 Add $25.00 more for free shipping!</p>
+    <button class="btn-checkout" id="btn-checkout">Checkout via WhatsApp →</button>
+    <p class="cart-secure">🔒 Secure checkout · 30-day returns</p>
+  </div>
+  <div class="cart-empty" id="cart-empty">
+    <span>🛒</span>
+    <p>Your cart is empty</p>
+    <a href="#shop" onclick="closeCart()">Start shopping →</a>
+  </div>
+</aside>
+
+<!-- ═══ TOAST ═══ -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
