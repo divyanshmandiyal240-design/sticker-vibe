@@ -11,7 +11,7 @@
 //     Then change PAYMENT_METHOD from 'whatsapp' to 'stripe'.
 // ═══════════════════════════════════════════════════════
 
-const WHATSAPP_NUMBER = "919999999999"; // ← CHANGE THIS to your WhatsApp number
+const WHATSAPP_NUMBER = "918278793811"; // ← CHANGE THIS to your WhatsApp number
 const PAYMENT_METHOD  = "whatsapp";     // "whatsapp" or "stripe"
 
 // ═══ PRODUCTS ═══
