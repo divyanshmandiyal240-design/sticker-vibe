@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#d1fae5"/>
+  <!-- Trees in background -->
+  <circle cx="42" cy="148" r="22" fill="#4ade80" opacity=".4"/>
+  <circle cx="158" cy="148" r="22" fill="#4ade80" opacity=".4"/>
+  <rect x="38" y="148" width="8" height="20" rx="3" fill="#6b7280" opacity=".3"/>
+  <rect x="154" y="148" width="8" height="20" rx="3" fill="#6b7280" opacity=".3"/>
+  <!-- Totoro body -->
+  <ellipse cx="100" cy="118" rx="46" ry="52" fill="#9ca3af"/>
+  <!-- Tummy -->
+  <ellipse cx="100" cy="128" rx="28" ry="30" fill="#e5e7eb"/>
+  <!-- Tummy stripes/pattern -->
+  <path d="M84 118C86 122 90 124 96 124" stroke="#9ca3af" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M82 126C85 130 90 132 96 132" stroke="#9ca3af" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Ears -->
+  <path d="M72 82C70 68 62 58 68 50C74 42 82 50 84 62Z" fill="#9ca3af"/>
+  <path d="M128 82C130 68 138 58 132 50C126 42 118 50 116 62Z" fill="#9ca3af"/>
+  <!-- Inner ears -->
+  <path d="M74 78C73 67 67 59 71 54C75 49 80 56 81 65Z" fill="#f9a8d4" opacity=".6"/>
+  <path d="M126 78C127 67 133 59 129 54C125 49 120 56 119 65Z" fill="#f9a8d4" opacity=".6"/>
+  <!-- Eyes -->
+  <ellipse cx="84" cy="90" rx="12" ry="13" fill="white"/>
+  <ellipse cx="116" cy="90" rx="12" ry="13" fill="white"/>
+  <circle cx="84" cy="91" r="8" fill="#1a1a1a"/>
+  <circle cx="116" cy="91" r="8" fill="#1a1a1a"/>
+  <circle cx="80" cy="87" r="3.5" fill="white"/>
+  <circle cx="112" cy="87" r="3.5" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="100" cy="105" rx="6" ry="4" fill="#4b5563"/>
+  <circle cx="100" cy="104" r="2.5" fill="#6b7280"/>
+  <!-- Whiskers -->
+  <line x1="60" y1="102" x2="80" y2="107" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="58" y1="108" x2="79" y2="109" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="120" y1="107" x2="140" y2="102" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="121" y1="109" x2="142" y2="108" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M90 116Q100 122 110 116" stroke="#4b5563" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Small chest dots -->
+  <circle cx="94" cy="118" r="3" fill="#9ca3af"/>
+  <circle cx="100" cy="116" r="3" fill="#9ca3af"/>
+  <circle cx="106" cy="118" r="3" fill="#9ca3af"/>
+  <!-- Tiny totoro on top of head -->
+  <ellipse cx="100" cy="66" rx="10" ry="12" fill="#c4b5a0"/>
+  <path d="M94 62C93 57 90 54 92 51C94 48 98 52 98 57Z" fill="#c4b5a0"/>
+  <path d="M106 62C107 57 110 54 108 51C106 48 102 52 102 57Z" fill="#c4b5a0"/>
+  <circle cx="96" cy="65" r="3" fill="#1a1a1a"/>
+  <circle cx="104" cy="65" r="3" fill="#1a1a1a"/>
+  <circle cx="95" cy="64" r="1.5" fill="white"/>
+  <circle cx="103" cy="64" r="1.5" fill="white"/>
+</svg>

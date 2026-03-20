@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#f0fdf4"/>
+  <!-- Bamboo leaf decorations -->
+  <ellipse cx="46" cy="66" rx="8" ry="18" fill="#4ade80" opacity=".3" transform="rotate(-30,46,66)"/>
+  <ellipse cx="154" cy="140" rx="8" ry="18" fill="#4ade80" opacity=".3" transform="rotate(20,154,140)"/>
+  <!-- Matcha whisk (chasen) suggestion in bg -->
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#86efac" stroke-width="1" opacity=".2"/>
+  <!-- Cup (chawan bowl style) -->
+  <path d="M55 90C55 80 62 72 100 72C138 72 145 80 145 90L140 148C140 154 122 160 100 160C78 160 60 154 60 148Z" fill="#dcfce7"/>
+  <path d="M55 90C55 80 62 72 100 72C138 72 145 80 145 90L140 148C140 154 122 160 100 160C78 160 60 154 60 148Z" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+  <!-- Rim -->
+  <ellipse cx="100" cy="90" rx="45" ry="12" fill="#dcfce7"/>
+  <ellipse cx="100" cy="90" rx="45" ry="12" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+  <!-- Matcha liquid -->
+  <ellipse cx="100" cy="90" rx="39" ry="8" fill="#4ade80"/>
+  <!-- Foam/matcha bubbles -->
+  <ellipse cx="100" cy="88" rx="38" ry="6" fill="#86efac" opacity=".7"/>
+  <!-- Matcha swirl art -->
+  <path d="M78 88C82 84 90 84 98 88C106 92 114 90 118 88" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round" opacity=".8"/>
+  <path d="M82 92C86 90 92 91 98 94" stroke="#16a34a" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".6"/>
+  <!-- Kawaii face on cup -->
+  <circle cx="88" cy="120" r="5" fill="#166534"/>
+  <circle cx="112" cy="120" r="5" fill="#166534"/>
+  <circle cx="90" cy="118" r="2" fill="white"/>
+  <circle cx="114" cy="118" r="2" fill="white"/>
+  <path d="M88 132Q100 140 112 132" stroke="#166534" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="80" cy="128" rx="7" ry="4" fill="#86efac" opacity=".5"/>
+  <ellipse cx="120" cy="128" rx="7" ry="4" fill="#86efac" opacity=".5"/>
+  <!-- Steam -->
+  <path d="M80 68C79 60 82 57 80 50" stroke="#4ade80" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M100 64C99 55 103 52 100 44" stroke="#4ade80" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M120 68C119 60 122 57 120 50" stroke="#4ade80" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <!-- Stars -->
+  <path d="M44 104L46 109L52 104L46 99Z" fill="#4ade80" opacity=".5"/>
+  <path d="M148 74L150 79L156 74L150 69Z" fill="#86efac" opacity=".5"/>
+</svg>

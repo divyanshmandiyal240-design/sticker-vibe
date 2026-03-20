@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#0a1628"/>
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="58" fill="none" stroke="#06ffa5" stroke-width="4" opacity=".3"/>
+  <circle cx="100" cy="100" r="52" fill="#06151c"/>
+  <!-- Glowing check circle -->
+  <circle cx="100" cy="100" r="48" fill="none" stroke="#06ffa5" stroke-width="3" opacity=".6"/>
+  <!-- Big checkmark -->
+  <path d="M68 100L88 120L132 76" stroke="#06ffa5" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Checkmark glow layer -->
+  <path d="M68 100L88 120L132 76" stroke="#06ffa5" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".15"/>
+  <!-- VIBE CHECK text arc hint — dots -->
+  <circle cx="100" cy="48" r="3" fill="#06ffa5" opacity=".5"/>
+  <circle cx="130" cy="56" r="2.5" fill="#06ffa5" opacity=".4"/>
+  <circle cx="152" cy="76" r="2" fill="#06ffa5" opacity=".3"/>
+  <circle cx="70" cy="56" r="2.5" fill="#06ffa5" opacity=".4"/>
+  <circle cx="48" cy="76" r="2" fill="#06ffa5" opacity=".3"/>
+  <!-- Stars -->
+  <path d="M148 42L150 48L156 50L150 52L148 58L146 52L140 50L146 48Z" fill="#06ffa5" opacity=".6"/>
+  <path d="M44 140L45.5 145L51 146.5L45.5 148L44 153L42.5 148L37 146.5L42.5 145Z" fill="#06ffa5" opacity=".5"/>
+  <!-- Center shine -->
+  <path d="M76 88Q80 96 78 106" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity=".3"/>
+</svg>

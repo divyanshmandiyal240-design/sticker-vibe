@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#e3f0ff"/>
+  <!-- Cap body -->
+  <path d="M50 118C50 78 72 52 100 52C128 52 150 78 150 118Z" fill="#1e88e5"/>
+  <!-- Center seam -->
+  <line x1="100" y1="52" x2="100" y2="118" stroke="#1565c0" stroke-width="2.5"/>
+  <!-- Button top -->
+  <circle cx="100" cy="55" r="7" fill="#1565c0"/>
+  <!-- Brim -->
+  <path d="M44 116Q100 148 156 116L162 126Q100 162 38 126Z" fill="#1565c0"/>
+  <!-- Brim highlight -->
+  <path d="M46 120Q100 150 154 120" stroke="#1e88e5" stroke-width="2" fill="none"/>
+  <!-- Ventilation holes -->
+  <circle cx="76" cy="82" r="3.5" fill="#1565c0"/>
+  <circle cx="124" cy="82" r="3.5" fill="#1565c0"/>
+</svg>

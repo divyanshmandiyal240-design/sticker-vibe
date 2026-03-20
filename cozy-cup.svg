@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#1c1008"/>
+  <!-- Warm glow -->
+  <ellipse cx="100" cy="120" rx="55" ry="40" fill="#f97316" opacity=".08"/>
+  <!-- Snowflakes / cozy elements -->
+  <path d="M44 60L44 72M41 63L47 69M41 69L47 63" stroke="#bfdbfe" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+  <path d="M156 68L156 80M153 71L159 77M153 77L159 71" stroke="#bfdbfe" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+  <path d="M38 128L38 136M36 130L40 134M36 134L40 130" stroke="#bfdbfe" stroke-width="1.5" stroke-linecap="round" opacity=".4"/>
+  <!-- Mug body -->
+  <path d="M62 84C61 84 58 152 64 156C70 160 130 160 136 156C142 152 139 84 138 84Z" fill="#292524"/>
+  <path d="M62 84C61 84 58 152 64 156C70 160 130 160 136 156C142 152 139 84 138 84Z" fill="none" stroke="#7c2d12" stroke-width="2.5"/>
+  <!-- Cozy sweater pattern on mug -->
+  <!-- Chevron pattern -->
+  <path d="M68 100L78 108L88 100L98 108L108 100L118 108L128 100L132 100" stroke="#7c2d12" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+  <path d="M68 114L78 122L88 114L98 122L108 114L118 122L128 114L132 114" stroke="#7c2d12" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+  <!-- Mug rim -->
+  <ellipse cx="100" cy="84" rx="38" ry="10" fill="#292524"/>
+  <ellipse cx="100" cy="84" rx="38" ry="10" fill="none" stroke="#7c2d12" stroke-width="2.5"/>
+  <!-- Hot chocolate top -->
+  <ellipse cx="100" cy="84" rx="32" ry="7" fill="#92400e"/>
+  <ellipse cx="100" cy="82" rx="32" ry="5" fill="#d97706" opacity=".5"/>
+  <!-- Marshmallows -->
+  <rect x="86" y="79" width="10" height="7" rx="3.5" fill="white"/>
+  <rect x="100" y="80" width="9" height="6" rx="3" fill="white"/>
+  <rect x="111" y="79" width="8" height="7" rx="3.5" fill="white"/>
+  <!-- Handle -->
+  <path d="M138 96C138 96 155 98 154 114C153 130 138 128 138 128" stroke="#7c2d12" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Steam wisps -->
+  <path d="M82 70C80 61 84 57 82 50" stroke="#f97316" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M100 66C98 56 102 52 100 44" stroke="#f97316" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M118 70C116 61 120 57 118 50" stroke="#f97316" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <!-- Tiny star/heart warmth -->
+  <path d="M48 100C48 100 46 96 48 94C50 92 52 94 52 94C52 94 54 92 56 94C58 96 56 100 56 100C56 100 52 104 48 100Z" fill="#f97316" opacity=".6"/>
+  <path d="M144 100C144 100 142 96 144 94C146 92 148 94 148 94C148 94 150 92 152 94C154 96 152 100 152 100C152 100 148 104 144 100Z" fill="#f97316" opacity=".6"/>
+</svg>

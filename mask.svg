@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#1a0505"/>
+  <!-- Horns -->
+  <path d="M72 62L58 28L82 52Z" fill="#b91c1c"/>
+  <path d="M128 62L142 28L118 52Z" fill="#b91c1c"/>
+  <!-- Mask face -->
+  <path d="M55 75C55 55 75 42 100 42C125 42 145 55 145 75C145 115 130 148 100 155C70 148 55 115 55 75Z" fill="#dc2626"/>
+  <!-- Face detail shading -->
+  <path d="M55 75C55 55 75 42 100 42C125 42 145 55 145 75C145 115 130 148 100 155C70 148 55 115 55 75Z" fill="none" stroke="#991b1b" stroke-width="3"/>
+  <!-- Eyes - angry slanted -->
+  <path d="M68 80L90 88" stroke="#1a0505" stroke-width="8" stroke-linecap="round"/>
+  <path d="M132 80L110 88" stroke="#1a0505" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="78" cy="86" rx="10" ry="8" fill="#fef08a"/>
+  <ellipse cx="122" cy="86" rx="10" ry="8" fill="#fef08a"/>
+  <circle cx="78" cy="86" r="5" fill="#1a0505"/>
+  <circle cx="122" cy="86" r="5" fill="#1a0505"/>
+  <circle cx="80" cy="84" r="2" fill="white"/>
+  <circle cx="124" cy="84" r="2" fill="white"/>
+  <!-- Nose -->
+  <path d="M94 106Q100 112 106 106" stroke="#991b1b" stroke-width="3" fill="none"/>
+  <!-- Fangs -->
+  <path d="M78 128L84 150L90 128" fill="white"/>
+  <path d="M110 128L116 150L122 128" fill="white"/>
+  <!-- Mouth line -->
+  <path d="M72 128Q100 140 128 128" stroke="#7f1d1d" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#0f172a"/>
+  <!-- Glow -->
+  <circle cx="100" cy="100" r="45" fill="#f59e0b" opacity=".18"/>
+  <!-- 4-point sparkle star -->
+  <path d="M100 28L108 88L168 100L108 112L100 172L92 112L32 100L92 88Z" fill="#fbbf24"/>
+  <path d="M100 28L108 88L168 100L108 112L100 172L92 112L32 100L92 88Z" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Inner bright center -->
+  <path d="M100 60L104 96L140 100L104 104L100 140L96 104L60 100L96 96Z" fill="#fde68a"/>
+  <!-- Tiny sparkles around -->
+  <path d="M148 50L150 58L158 60L150 62L148 70L146 62L138 60L146 58Z" fill="#fbbf24" opacity=".8"/>
+  <path d="M50 140L51.5 145L57 146.5L51.5 148L50 153L48.5 148L43 146.5L48.5 145Z" fill="#fbbf24" opacity=".8"/>
+  <path d="M155 130L156 134L160 135L156 136L155 140L154 136L150 135L154 134Z" fill="#fde68a" opacity=".7"/>
+  <!-- Shine -->
+  <path d="M90 72Q96 80 92 92" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" opacity=".4"/>
+</svg>

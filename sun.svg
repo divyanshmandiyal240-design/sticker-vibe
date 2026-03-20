@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#fff3cd"/>
+  <!-- Rays alternating long/short -->
+  <g stroke="#f59e0b" stroke-linecap="round">
+    <line x1="100" y1="28" x2="100" y2="44" stroke-width="6"/>
+    <line x1="130" y1="35" x2="124" y2="49" stroke-width="5"/>
+    <line x1="152" y1="57" x2="142" y2="67" stroke-width="6"/>
+    <line x1="162" y1="87" x2="147" y2="92" stroke-width="5"/>
+    <line x1="162" y1="113" x2="147" y2="108" stroke-width="6"/>
+    <line x1="152" y1="143" x2="142" y2="133" stroke-width="5"/>
+    <line x1="130" y1="165" x2="124" y2="151" stroke-width="6"/>
+    <line x1="100" y1="172" x2="100" y2="156" stroke-width="5"/>
+    <line x1="70" y1="165" x2="76" y2="151" stroke-width="6"/>
+    <line x1="48" y1="143" x2="58" y2="133" stroke-width="5"/>
+    <line x1="38" y1="113" x2="53" y2="108" stroke-width="6"/>
+    <line x1="38" y1="87" x2="53" y2="92" stroke-width="5"/>
+    <line x1="48" y1="57" x2="58" y2="67" stroke-width="6"/>
+    <line x1="70" y1="35" x2="76" y2="49" stroke-width="5"/>
+  </g>
+  <!-- Sun circle -->
+  <circle cx="100" cy="100" r="42" fill="#f59e0b"/>
+  <circle cx="100" cy="100" r="36" fill="#fbbf24"/>
+  <!-- Face -->
+  <circle cx="88" cy="96" r="5" fill="#92400e"/>
+  <circle cx="112" cy="96" r="5" fill="#92400e"/>
+  <path d="M88 110Q100 120 112 110" stroke="#92400e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Blush -->
+  <ellipse cx="78" cy="106" rx="8" ry="5" fill="#fca5a5" opacity=".5"/>
+  <ellipse cx="122" cy="106" rx="8" ry="5" fill="#fca5a5" opacity=".5"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#fff0f6"/>
+  <!-- Falling petals in background -->
+  <ellipse cx="50" cy="58" rx="8" ry="12" fill="#fecdd3" opacity=".5" transform="rotate(-20,50,58)"/>
+  <ellipse cx="152" cy="72" rx="7" ry="10" fill="#fbcfe8" opacity=".4" transform="rotate(15,152,72)"/>
+  <ellipse cx="44" cy="138" rx="6" ry="9" fill="#fecdd3" opacity=".4" transform="rotate(30,44,138)"/>
+  <ellipse cx="158" cy="142" rx="7" ry="10" fill="#fbcfe8" opacity=".4" transform="rotate(-15,158,142)"/>
+  <!-- Branch -->
+  <path d="M55 155C60 140 72 128 80 110C88 92 88 78 92 64" stroke="#9d4b00" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M92 64C96 80 100 88 108 96C116 104 130 110 140 108" stroke="#9d4b00" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Big sakura flowers -->
+  <!-- Flower 1 at top -->
+  <g transform="translate(92,60)">
+    <ellipse cx="0" cy="-14" rx="7" ry="12" fill="#fda4af" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-14" rx="7" ry="12" fill="#fda4af" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-14" rx="7" ry="12" fill="#fecdd3" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-14" rx="7" ry="12" fill="#fecdd3" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-14" rx="7" ry="12" fill="#fda4af" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="6" fill="#fde68a"/>
+    <circle cx="-2" cy="-2" r="2" fill="white" opacity=".5"/>
+  </g>
+  <!-- Flower 2 mid-branch -->
+  <g transform="translate(112,96)">
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="#fb7185" transform="rotate(18)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="#fda4af" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="#fecdd3" transform="rotate(162)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="#fda4af" transform="rotate(234)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="#fb7185" transform="rotate(306)"/>
+    <circle cx="0" cy="0" r="5" fill="#fde68a"/>
+  </g>
+  <!-- Flower 3 lower -->
+  <g transform="translate(78,112)">
+    <ellipse cx="0" cy="-11" rx="5" ry="9" fill="#fda4af" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="9" fill="#fecdd3" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="9" fill="#fda4af" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="9" fill="#fecdd3" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-11" rx="5" ry="9" fill="#fda4af" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="4" fill="#fde68a"/>
+  </g>
+  <!-- Tiny buds -->
+  <circle cx="60" cy="148" r="5" fill="#fb7185"/>
+  <circle cx="136" cy="110" r="4" fill="#fda4af"/>
+  <!-- Stamens on main flower -->
+  <line x1="92" y1="60" x2="90" y2="50" stroke="#f9a8d4" stroke-width="1.5"/>
+  <line x1="92" y1="60" x2="95" y2="49" stroke="#f9a8d4" stroke-width="1.5"/>
+  <line x1="92" y1="60" x2="98" y2="52" stroke="#f9a8d4" stroke-width="1.5"/>
+  <circle cx="90" cy="50" r="1.5" fill="#fbbf24"/>
+  <circle cx="95" cy="49" r="1.5" fill="#fbbf24"/>
+  <circle cx="98" cy="52" r="1.5" fill="#fbbf24"/>
+</svg>

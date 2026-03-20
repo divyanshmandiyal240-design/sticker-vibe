@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#fef3c7"/>
+  <!-- Steam wisps -->
+  <path d="M82 56C80 48 84 44 82 38" stroke="#9ca3af" stroke-width="3" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M100 52C98 42 103 38 100 30" stroke="#9ca3af" stroke-width="3" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M118 56C116 48 120 44 118 38" stroke="#9ca3af" stroke-width="3" fill="none" stroke-linecap="round" opacity=".5"/>
+  <!-- Cup saucer -->
+  <ellipse cx="100" cy="152" rx="48" ry="10" fill="#d97706"/>
+  <ellipse cx="100" cy="152" rx="44" ry="8" fill="#fbbf24"/>
+  <!-- Cup body -->
+  <path d="M64 80C62 80 58 150 64 155C70 160 130 160 136 155C142 150 138 80 136 80Z" fill="#fef9c3"/>
+  <path d="M64 80C62 80 58 150 64 155C70 160 130 160 136 155C142 150 138 80 136 80Z" fill="none" stroke="#d97706" stroke-width="2.5"/>
+  <!-- Cup top rim -->
+  <ellipse cx="100" cy="80" rx="36" ry="10" fill="#fef9c3"/>
+  <ellipse cx="100" cy="80" rx="36" ry="10" fill="none" stroke="#d97706" stroke-width="2.5"/>
+  <!-- Latte art — heart on foam -->
+  <ellipse cx="100" cy="80" rx="30" ry="7" fill="#f5e0c0"/>
+  <!-- Heart latte art -->
+  <path d="M100 84C100 84 88 76 88 70C88 66 92 63 96 65C98 66 100 68 100 70C100 68 102 66 104 65C108 63 112 66 112 70C112 76 100 84 100 84Z" fill="#c2410c" opacity=".7"/>
+  <!-- Handle -->
+  <path d="M136 100C136 100 152 100 152 116C152 132 136 130 136 130" stroke="#d97706" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- "latte" text style decoration -->
+  <circle cx="76" cy="108" r="4" fill="#d97706" opacity=".3"/>
+  <circle cx="124" cy="120" r="3" fill="#d97706" opacity=".3"/>
+  <!-- Small stars -->
+  <path d="M50 72L51.5 77L57 72L51.5 67Z" fill="#fbbf24" opacity=".6"/>
+  <path d="M148 90L149.5 95L155 90L149.5 85Z" fill="#fbbf24" opacity=".5"/>
+</svg>
