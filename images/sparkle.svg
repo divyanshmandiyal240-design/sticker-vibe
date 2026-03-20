@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#0d0d2b"/>
+  <!-- Sparkle burst bg glow -->
+  <circle cx="100" cy="100" r="40" fill="#c084fc" opacity=".15"/>
+  <!-- Big 4-point sparkle center -->
+  <path d="M100 48L106 94L152 100L106 106L100 152L94 106L48 100L94 94Z" fill="#e879f9"/>
+  <path d="M100 48L106 94L152 100L106 106L100 152L94 106L48 100L94 94Z" fill="none" stroke="#c026d3" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Inner sparkle -->
+  <path d="M100 70L103.5 96.5L130 100L103.5 103.5L100 130L96.5 103.5L70 100L96.5 96.5Z" fill="#f0abfc"/>
+  <!-- Center dot -->
+  <circle cx="100" cy="100" r="8" fill="white"/>
+  <circle cx="100" cy="100" r="5" fill="#e879f9"/>
+  <!-- Small sparkles scattered -->
+  <path d="M148 52L150 58L156 60L150 62L148 68L146 62L140 60L146 58Z" fill="#e879f9" opacity=".8"/>
+  <path d="M44 136L45.5 141L51 142.5L45.5 144L44 149L42.5 144L37 142.5L42.5 141Z" fill="#a78bfa" opacity=".8"/>
+  <path d="M156 138L157 141L160 142L157 143L156 146L155 143L152 142L155 141Z" fill="#f0abfc" opacity=".7"/>
+  <path d="M48 58L49 61L52 62L49 63L48 66L47 63L44 62L47 61Z" fill="#c084fc" opacity=".7"/>
+  <!-- Tiny dots -->
+  <circle cx="62" cy="80" r="3" fill="#e879f9" opacity=".6"/>
+  <circle cx="140" cy="122" r="3" fill="#a78bfa" opacity=".6"/>
+  <circle cx="130" cy="58" r="2" fill="#f0abfc" opacity=".5"/>
+  <circle cx="68" cy="142" r="2" fill="#c084fc" opacity=".5"/>
+  <!-- Shine -->
+  <path d="M88 72Q92 80 88 92" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round" opacity=".4"/>
+</svg>

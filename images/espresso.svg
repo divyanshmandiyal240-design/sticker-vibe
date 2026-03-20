@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#1c0a00"/>
+  <!-- Coffee bean decorations -->
+  <ellipse cx="46" cy="70" rx="10" ry="7" fill="#7c2d12" opacity=".4" transform="rotate(-20,46,70)"/>
+  <line x1="46" y1="63" x2="46" y2="77" stroke="#451a03" stroke-width="1.5" transform="rotate(-20,46,70)" opacity=".4"/>
+  <ellipse cx="154" cy="130" rx="9" ry="6" fill="#7c2d12" opacity=".4" transform="rotate(15,154,130)"/>
+  <line x1="154" y1="124" x2="154" y2="136" stroke="#451a03" stroke-width="1.5" transform="rotate(15,154,130)" opacity=".4"/>
+  <!-- Saucer -->
+  <ellipse cx="100" cy="150" rx="42" ry="10" fill="#292524"/>
+  <ellipse cx="100" cy="150" rx="36" ry="7" fill="#44403c"/>
+  <!-- Espresso cup -->
+  <path d="M74 92C73 92 70 148 75 152C80 156 120 156 125 152C130 148 127 92 126 92Z" fill="#292524"/>
+  <path d="M74 92C73 92 70 148 75 152C80 156 120 156 125 152C130 148 127 92 126 92Z" fill="none" stroke="#57534e" stroke-width="2"/>
+  <!-- Cup rim -->
+  <ellipse cx="100" cy="92" rx="26" ry="7" fill="#292524"/>
+  <ellipse cx="100" cy="92" rx="26" ry="7" fill="none" stroke="#57534e" stroke-width="2"/>
+  <!-- Espresso liquid -->
+  <ellipse cx="100" cy="92" rx="22" ry="5" fill="#92400e"/>
+  <!-- Crema layer -->
+  <ellipse cx="100" cy="91" rx="22" ry="4" fill="#d97706" opacity=".6"/>
+  <!-- Crema swirl -->
+  <path d="M88 91C88 91 94 88 100 91C106 94 112 91 112 91" stroke="#fbbf24" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".7"/>
+  <!-- Handle -->
+  <path d="M126 106C126 106 140 106 140 118C140 130 126 128 126 128" stroke="#57534e" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Steam -->
+  <path d="M88 80C87 73 90 70 88 64" stroke="#9ca3af" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M100 76C99 68 102 65 100 58" stroke="#9ca3af" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <path d="M112 80C111 73 114 70 112 64" stroke="#9ca3af" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".5"/>
+  <!-- Energy sparks (espresso kick) -->
+  <path d="M42 100L46 104L42 108L38 104Z" fill="#fbbf24" opacity=".6"/>
+  <path d="M158 96L162 100L158 104L154 100Z" fill="#fbbf24" opacity=".6"/>
+  <path d="M48 120L50 124L48 128L46 124Z" fill="#f97316" opacity=".5"/>
+  <path d="M152 118L154 122L152 126L150 122Z" fill="#f97316" opacity=".5"/>
+</svg>

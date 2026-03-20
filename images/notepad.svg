@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#fffbeb"/>
+  <!-- Notepad shadow -->
+  <rect x="60" y="50" width="82" height="104" rx="8" fill="#fde68a" opacity=".5" transform="translate(3,4)"/>
+  <!-- Notepad body -->
+  <rect x="60" y="50" width="82" height="104" rx="8" fill="#fefce8"/>
+  <rect x="60" y="50" width="82" height="104" rx="8" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <!-- Spiral binding -->
+  <circle cx="75" cy="56" r="5" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <circle cx="93" cy="56" r="5" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <circle cx="111" cy="56" r="5" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <circle cx="129" cy="56" r="5" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <rect x="60" y="56" width="82" height="6" fill="#fefce8"/>
+  <!-- Header bar -->
+  <rect x="60" y="62" width="82" height="20" rx="0" fill="#fbbf24"/>
+  <!-- "Understood" text hint — lines -->
+  <rect x="72" y="68" width="58" height="5" rx="2.5" fill="#1a1a1a" opacity=".5"/>
+  <!-- Lines on notepad -->
+  <line x1="72" y1="96" x2="130" y2="96" stroke="#fde68a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="108" x2="130" y2="108" stroke="#fde68a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="120" x2="130" y2="120" stroke="#fde68a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="132" x2="110" y2="132" stroke="#fde68a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Checkmarks on lines -->
+  <path d="M72 92L76 96L84 88" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 104L76 108L84 100" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 116L76 120L84 112" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pencil -->
+  <g transform="rotate(-30,130,140)">
+    <rect x="124" y="124" width="8" height="30" rx="2" fill="#fbbf24"/>
+    <polygon points="124,154 132,154 128,162" fill="#f97316"/>
+    <rect x="124" y="124" width="8" height="8" rx="2" fill="#e5e7eb"/>
+    <line x1="128" y1="160" x2="128" y2="162" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#dbeafe"/>
+  <!-- Wrist -->
+  <rect x="68" y="138" width="64" height="38" rx="12" fill="#c68642"/>
+  <!-- Fist body -->
+  <rect x="62" y="82" width="76" height="62" rx="16" fill="#daa060"/>
+  <!-- Thumb -->
+  <path d="M62 108C52 108 46 100 48 92C50 84 58 80 66 84L66 108Z" fill="#daa060"/>
+  <!-- Knuckle lines -->
+  <line x1="78" y1="82" x2="78" y2="100" stroke="#c68642" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="82" x2="100" y2="100" stroke="#c68642" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="122" y1="82" x2="122" y2="100" stroke="#c68642" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Highlight -->
+  <rect x="70" y="86" width="28" height="20" rx="6" fill="#e8b882" opacity=".5"/>
+  <!-- Power lines -->
+  <line x1="40" y1="88" x2="56" y2="96" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <line x1="36" y1="104" x2="54" y2="106" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <line x1="40" y1="120" x2="56" y2="114" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#2d2d3a"/>
+  <!-- Skull head -->
+  <ellipse cx="100" cy="90" rx="52" ry="55" fill="#f0f0f0"/>
+  <!-- Jaw -->
+  <rect x="72" y="125" width="56" height="26" rx="8" fill="#f0f0f0"/>
+  <!-- Jaw teeth gaps -->
+  <rect x="84" y="130" width="10" height="18" rx="3" fill="#2d2d3a"/>
+  <rect x="100" y="130" width="10" height="18" rx="3" fill="#2d2d3a"/>
+  <rect x="116" y="130" width="10" height="18" rx="3" fill="#2d2d3a"/>
+  <!-- Eye sockets - X style -->
+  <line x1="79" y1="79" x2="93" y2="93" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+  <line x1="93" y1="79" x2="79" y2="93" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+  <line x1="107" y1="79" x2="121" y2="93" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+  <line x1="121" y1="79" x2="107" y2="93" stroke="#2d2d3a" stroke-width="6" stroke-linecap="round"/>
+  <!-- Nose -->
+  <path d="M96 104Q100 112 104 104" stroke="#2d2d3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Blush -->
+  <ellipse cx="76" cy="100" rx="9" ry="6" fill="#ff9eb5" opacity=".5"/>
+  <ellipse cx="124" cy="100" rx="9" ry="6" fill="#ff9eb5" opacity=".5"/>
+</svg>

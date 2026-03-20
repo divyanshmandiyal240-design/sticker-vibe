@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#1a0a2e"/>
+  <!-- Glow -->
+  <ellipse cx="100" cy="110" rx="55" ry="20" fill="#f59e0b" opacity=".15"/>
+  <!-- Crown base -->
+  <rect x="55" y="108" width="90" height="22" rx="6" fill="#f59e0b"/>
+  <rect x="55" y="108" width="90" height="22" rx="6" fill="none" stroke="#d97706" stroke-width="2"/>
+  <!-- Crown body -->
+  <path d="M55 108L62 68L82 88L100 58L118 88L138 68L145 108Z" fill="#fbbf24"/>
+  <path d="M55 108L62 68L82 88L100 58L118 88L138 68L145 108Z" fill="none" stroke="#d97706" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Gems on crown -->
+  <circle cx="100" cy="64" r="8" fill="#ef4444"/>
+  <circle cx="100" cy="64" r="8" fill="none" stroke="#991b1b" stroke-width="1.5"/>
+  <circle cx="100" cy="62" r="3" fill="white" opacity=".5"/>
+  <circle cx="76" cy="90" r="6" fill="#60a5fa"/>
+  <circle cx="76" cy="89" r="2.5" fill="white" opacity=".5"/>
+  <circle cx="124" cy="90" r="6" fill="#34d399"/>
+  <circle cx="124" cy="89" r="2.5" fill="white" opacity=".5"/>
+  <!-- Base gems row -->
+  <circle cx="72" cy="119" r="4" fill="#f87171"/>
+  <circle cx="88" cy="119" r="4" fill="#fde68a"/>
+  <circle cx="100" cy="119" r="5" fill="#c084fc"/>
+  <circle cx="112" cy="119" r="4" fill="#fde68a"/>
+  <circle cx="128" cy="119" r="4" fill="#f87171"/>
+  <!-- Shine on crown -->
+  <path d="M68 78Q72 86 70 94" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity=".4"/>
+  <!-- Stars around -->
+  <path d="M40 75L42 80L47 82L42 84L40 89L38 84L33 82L38 80Z" fill="#fbbf24" opacity=".7"/>
+  <path d="M158 90L159.5 94L164 95.5L159.5 97L158 101L156.5 97L152 95.5L156.5 94Z" fill="#fbbf24" opacity=".6"/>
+</svg>

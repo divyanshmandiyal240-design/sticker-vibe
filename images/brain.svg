@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,.22))"/>
+  <circle cx="100" cy="100" r="82" fill="#fdf2f8"/>
+  <!-- Brain shape left lobe -->
+  <path d="M100 60C100 60 80 52 68 62C56 72 54 86 60 96C54 102 52 114 60 122C66 128 76 130 84 126C86 136 94 144 100 144Z" fill="#f9a8d4"/>
+  <path d="M100 60C100 60 80 52 68 62C56 72 54 86 60 96C54 102 52 114 60 122C66 128 76 130 84 126C86 136 94 144 100 144Z" fill="none" stroke="#ec4899" stroke-width="2.5"/>
+  <!-- Brain shape right lobe -->
+  <path d="M100 60C100 60 120 52 132 62C144 72 146 86 140 96C146 102 148 114 140 122C134 128 124 130 116 126C114 136 106 144 100 144Z" fill="#f9a8d4"/>
+  <path d="M100 60C100 60 120 52 132 62C144 72 146 86 140 96C146 102 148 114 140 122C134 128 124 130 116 126C114 136 106 144 100 144Z" fill="none" stroke="#ec4899" stroke-width="2.5"/>
+  <!-- Center line -->
+  <line x1="100" y1="60" x2="100" y2="144" stroke="#ec4899" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Brain wrinkles left -->
+  <path d="M68 78C72 76 76 78 78 82" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M60 96C64 94 70 96 72 102" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M64 118C68 116 74 116 78 120" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Brain wrinkles right -->
+  <path d="M132 78C128 76 124 78 122 82" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M140 96C136 94 130 96 128 102" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M136 118C132 116 126 116 122 120" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Kawaii eyes (empty/no thoughts) -->
+  <circle cx="86" cy="98" r="6" fill="#2d0014"/>
+  <circle cx="114" cy="98" r="6" fill="#2d0014"/>
+  <line x1="83" y1="95" x2="89" y2="101" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="83" y1="101" x2="89" y2="95" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="111" y1="95" x2="117" y2="101" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="111" y1="101" x2="117" y2="95" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M88 112Q100 120 112 112" stroke="#2d0014" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Tiny stars / static lines -->
+  <path d="M42 88L44 92L48 88L44 84Z" fill="#ec4899" opacity=".5"/>
+  <path d="M152 108L154 112L158 108L154 104Z" fill="#f9a8d4" opacity=".6"/>
+</svg>
